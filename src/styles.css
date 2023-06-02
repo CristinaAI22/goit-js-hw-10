@@ -1,0 +1,59 @@
+.hidden {
+  display: none;
+}
+.load {
+  width: 24px;
+  height: 24px;
+  border: 5px solid #565454;
+  border-bottom-color: #ff3d00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  margin-right: 5px;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  display: flex;
+}
+.cat-info {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 33.3%;
+  margin-left: 50px;
+  color: darkslategrey;
+}
+img {
+  margin-top: 20px;
+  max-width: 50%;
+  object-fit: cover;
+}
+select {
+  background: white;
+  outline: none;
+  color: grey;
+  border: none;
+  width: 100%;
+  max-width: 380px;
+  display: block;
+  margin: 0;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 18px;
+  border: none;
+  outline: 0;
+}
+.ss-main .ss-single-selected {
+  height: 50px;
+}
+.error {
+  color: red;
+}
