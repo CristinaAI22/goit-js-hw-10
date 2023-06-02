@@ -55,5 +55,5 @@ select {
   height: 50px;
 }
 .error {
-  color: green;
+  color: red;
 }
